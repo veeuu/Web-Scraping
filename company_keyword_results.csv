@@ -1,0 +1,128 @@
+Company Name,Domain,Country,Keyword,URL,Source
+Company Name,Website,Industry,aws,https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_accounts_create.html,3rd-party
+Company Name,Website,Industry,amazon ec2,https://aws.amazon.com/ec2/pricing/reserved-instances/marketplace/,3rd-party
+Company Name,Website,Industry,ec2,https://aws.amazon.com/ec2/pricing/reserved-instances/marketplace/,3rd-party
+Company Name,Website,Industry,aws cloud,https://aws.amazon.com/ec2/pricing/reserved-instances/marketplace/,3rd-party
+Company Name,Website,Industry,aws,https://aws.amazon.com/ec2/pricing/reserved-instances/marketplace/,3rd-party
+Apple,apple.com,Technology,amazon ec2,https://apps.apple.com/us/app/aws-console/id580990573,own
+Apple,apple.com,Technology,ec2,https://apps.apple.com/us/app/aws-console/id580990573,own
+Apple,apple.com,Technology,aws,https://apps.apple.com/us/app/aws-console/id580990573,own
+Apple,apple.com,Technology,amazon rds,https://apps.apple.com/us/app/aws-console/id580990573,own
+Apple,apple.com,Technology,rds,https://apps.apple.com/us/app/aws-console/id580990573,own
+Apple,apple.com,Technology,amazon s3,https://apps.apple.com/us/app/aws-console/id580990573,own
+Apple,apple.com,Technology,s3,https://apps.apple.com/us/app/aws-console/id580990573,own
+Apple,apple.com,Technology,aws lambda,https://apps.apple.com/us/app/aws-console/id580990573,own
+Apple,apple.com,Technology,lambda,https://apps.apple.com/us/app/aws-console/id580990573,own
+Apple,apple.com,Technology,amazon vpc,https://apps.apple.com/us/app/aws-console/id580990573,own
+Apple,apple.com,Technology,vpc,https://apps.apple.com/us/app/aws-console/id580990573,own
+Apple,apple.com,Technology,amazon dynamodb,https://apps.apple.com/us/app/aws-console/id580990573,own
+Apple,apple.com,Technology,dynamodb,https://apps.apple.com/us/app/aws-console/id580990573,own
+Apple,apple.com,Technology,amazon route 53,https://apps.apple.com/us/app/aws-console/id580990573,own
+Apple,apple.com,Technology,route 53,https://apps.apple.com/us/app/aws-console/id580990573,own
+Apple,apple.com,Technology,amazon cloudwatch,https://apps.apple.com/us/app/aws-console/id580990573,own
+Apple,apple.com,Technology,cloudwatch,https://apps.apple.com/us/app/aws-console/id580990573,own
+Apple,apple.com,Technology,aws cloudtrail,https://apps.apple.com/us/app/aws-console/id580990573,own
+Apple,apple.com,Technology,cloudtrail,https://apps.apple.com/us/app/aws-console/id580990573,own
+Apple,apple.com,Technology,codebuild,https://apps.apple.com/us/app/aws-console/id580990573,own
+Apple,apple.com,Technology,aws elastic beanstalk,https://apps.apple.com/us/app/aws-console/id580990573,own
+Apple,apple.com,Technology,elastic beanstalk,https://apps.apple.com/us/app/aws-console/id580990573,own
+Apple,apple.com,Technology,sqs,https://apps.apple.com/us/app/aws-console/id580990573,own
+Apple,apple.com,Technology,step functions,https://apps.apple.com/us/app/aws-console/id580990573,own
+Apple,apple.com,Technology,secrets manager,https://apps.apple.com/us/app/aws-console/id580990573,own
+Apple,apple.com,Technology,google cloud,https://apps.apple.com/us/app/aws-console/id580990573,own
+Apple,apple.com,Technology,azure,https://apps.apple.com/us/app/aws-console/id580990573,own
+Apple,apple.com,Technology,microsoft azure,https://apps.apple.com/us/app/aws-console/id580990573,own
+Apple,apple.com,Technology,aws,https://apps.apple.com/us/app/aws-s3-manager/id1352683230,own
+Apple,apple.com,Technology,s3,https://apps.apple.com/us/app/aws-s3-manager/id1352683230,own
+Apple,apple.com,Technology,amazon ec2,https://aws.amazon.com/solutions/guidance/developing-apple-ios-and-vision-pro-applications-with-unity-on-amazon-ec2/,3rd-party
+Apple,apple.com,Technology,ec2,https://aws.amazon.com/solutions/guidance/developing-apple-ios-and-vision-pro-applications-with-unity-on-amazon-ec2/,3rd-party
+Apple,apple.com,Technology,aws cloud,https://aws.amazon.com/solutions/guidance/developing-apple-ios-and-vision-pro-applications-with-unity-on-amazon-ec2/,3rd-party
+Apple,apple.com,Technology,aws,https://aws.amazon.com/solutions/guidance/developing-apple-ios-and-vision-pro-applications-with-unity-on-amazon-ec2/,3rd-party
+Apple,apple.com,Technology,amazon s3,https://aws.amazon.com/solutions/guidance/developing-apple-ios-and-vision-pro-applications-with-unity-on-amazon-ec2/,3rd-party
+Apple,apple.com,Technology,s3,https://aws.amazon.com/solutions/guidance/developing-apple-ios-and-vision-pro-applications-with-unity-on-amazon-ec2/,3rd-party
+Apple,apple.com,Technology,amazon ebs,https://aws.amazon.com/solutions/guidance/developing-apple-ios-and-vision-pro-applications-with-unity-on-amazon-ec2/,3rd-party
+Apple,apple.com,Technology,ebs,https://aws.amazon.com/solutions/guidance/developing-apple-ios-and-vision-pro-applications-with-unity-on-amazon-ec2/,3rd-party
+Apple,apple.com,Technology,amazon efs,https://aws.amazon.com/solutions/guidance/developing-apple-ios-and-vision-pro-applications-with-unity-on-amazon-ec2/,3rd-party
+Apple,apple.com,Technology,efs,https://aws.amazon.com/solutions/guidance/developing-apple-ios-and-vision-pro-applications-with-unity-on-amazon-ec2/,3rd-party
+Apple,apple.com,Technology,amazon vpc,https://aws.amazon.com/solutions/guidance/developing-apple-ios-and-vision-pro-applications-with-unity-on-amazon-ec2/,3rd-party
+Apple,apple.com,Technology,vpc,https://aws.amazon.com/solutions/guidance/developing-apple-ios-and-vision-pro-applications-with-unity-on-amazon-ec2/,3rd-party
+Apple,apple.com,Technology,load balancer,https://aws.amazon.com/solutions/guidance/developing-apple-ios-and-vision-pro-applications-with-unity-on-amazon-ec2/,3rd-party
+Apple,apple.com,Technology,auto scaling,https://aws.amazon.com/solutions/guidance/developing-apple-ios-and-vision-pro-applications-with-unity-on-amazon-ec2/,3rd-party
+Apple,apple.com,Technology,amazon cloudwatch,https://aws.amazon.com/solutions/guidance/developing-apple-ios-and-vision-pro-applications-with-unity-on-amazon-ec2/,3rd-party
+Apple,apple.com,Technology,cloudwatch,https://aws.amazon.com/solutions/guidance/developing-apple-ios-and-vision-pro-applications-with-unity-on-amazon-ec2/,3rd-party
+Apple,apple.com,Technology,aws fargate,https://aws.amazon.com/solutions/guidance/developing-apple-ios-and-vision-pro-applications-with-unity-on-amazon-ec2/,3rd-party
+Apple,apple.com,Technology,fargate,https://aws.amazon.com/solutions/guidance/developing-apple-ios-and-vision-pro-applications-with-unity-on-amazon-ec2/,3rd-party
+Apple,apple.com,Technology,aws secrets manager,https://aws.amazon.com/solutions/guidance/developing-apple-ios-and-vision-pro-applications-with-unity-on-amazon-ec2/,3rd-party
+Apple,apple.com,Technology,secrets manager,https://aws.amazon.com/solutions/guidance/developing-apple-ios-and-vision-pro-applications-with-unity-on-amazon-ec2/,3rd-party
+Apple,apple.com,Technology,ec2,https://www.youtube.com/watch?v=pBvekh31xkA,3rd-party
+Apple,apple.com,Technology,aws,https://www.youtube.com/watch?v=pBvekh31xkA,3rd-party
+Apple,apple.com,Technology,cloudwatch,https://www.youtube.com/watch?v=pBvekh31xkA,3rd-party
+Alphabet,abc.xyz,Technology,amazon ec2,https://www.datavail.com/blog/aws-alphabet-core-concepts-for-sql-server-dbas/,3rd-party
+Alphabet,abc.xyz,Technology,ec2,https://www.datavail.com/blog/aws-alphabet-core-concepts-for-sql-server-dbas/,3rd-party
+Alphabet,abc.xyz,Technology,aws,https://www.datavail.com/blog/aws-alphabet-core-concepts-for-sql-server-dbas/,3rd-party
+Alphabet,abc.xyz,Technology,amazon rds,https://www.datavail.com/blog/aws-alphabet-core-concepts-for-sql-server-dbas/,3rd-party
+Alphabet,abc.xyz,Technology,rds,https://www.datavail.com/blog/aws-alphabet-core-concepts-for-sql-server-dbas/,3rd-party
+Alphabet,abc.xyz,Technology,amazon s3,https://www.datavail.com/blog/aws-alphabet-core-concepts-for-sql-server-dbas/,3rd-party
+Alphabet,abc.xyz,Technology,s3,https://www.datavail.com/blog/aws-alphabet-core-concepts-for-sql-server-dbas/,3rd-party
+Alphabet,abc.xyz,Technology,ebs,https://www.datavail.com/blog/aws-alphabet-core-concepts-for-sql-server-dbas/,3rd-party
+Alphabet,abc.xyz,Technology,vpc,https://www.datavail.com/blog/aws-alphabet-core-concepts-for-sql-server-dbas/,3rd-party
+Alphabet,abc.xyz,Technology,aws glue,https://www.datavail.com/blog/aws-alphabet-core-concepts-for-sql-server-dbas/,3rd-party
+Alphabet,abc.xyz,Technology,glue,https://www.datavail.com/blog/aws-alphabet-core-concepts-for-sql-server-dbas/,3rd-party
+Alphabet,abc.xyz,Technology,amazon redshift,https://www.datavail.com/blog/aws-alphabet-core-concepts-for-sql-server-dbas/,3rd-party
+Alphabet,abc.xyz,Technology,redshift,https://www.datavail.com/blog/aws-alphabet-core-concepts-for-sql-server-dbas/,3rd-party
+Alphabet,abc.xyz,Technology,azure,https://www.datavail.com/blog/aws-alphabet-core-concepts-for-sql-server-dbas/,3rd-party
+Alphabet,abc.xyz,Technology,microsoft azure,https://www.datavail.com/blog/aws-alphabet-core-concepts-for-sql-server-dbas/,3rd-party
+Alphabet,abc.xyz,Technology,azure logic apps,https://www.datavail.com/blog/aws-alphabet-core-concepts-for-sql-server-dbas/,3rd-party
+Alphabet,abc.xyz,Technology,oracle cloud,https://www.datavail.com/blog/aws-alphabet-core-concepts-for-sql-server-dbas/,3rd-party
+Alphabet,abc.xyz,Technology,oracle cloud infrastructure,https://www.datavail.com/blog/aws-alphabet-core-concepts-for-sql-server-dbas/,3rd-party
+Amazon,amazon.com,Retail,ec2,https://aws.amazon.com/,own
+Amazon,amazon.com,Retail,aws cloud,https://aws.amazon.com/,own
+Amazon,amazon.com,Retail,aws,https://aws.amazon.com/,own
+Amazon,amazon.com,Retail,s3,https://aws.amazon.com/,own
+Amazon,amazon.com,Retail,amazon cloudfront,https://aws.amazon.com/,own
+Amazon,amazon.com,Retail,cloudfront,https://aws.amazon.com/,own
+Amazon,amazon.com,Retail,amazon dynamodb,https://aws.amazon.com/,own
+Amazon,amazon.com,Retail,dynamodb,https://aws.amazon.com/,own
+Amazon,amazon.com,Retail,amazon sagemaker,https://aws.amazon.com/,own
+Amazon,amazon.com,Retail,sagemaker,https://aws.amazon.com/,own
+Amazon,amazon.com,Retail,aws cloud,https://sustainability.aboutamazon.com/products-services/aws-cloud,own
+Amazon,amazon.com,Retail,aws,https://sustainability.aboutamazon.com/products-services/aws-cloud,own
+Amazon,amazon.com,Retail,amazon ec2,https://en.wikipedia.org/wiki/Amazon_Web_Services,3rd-party
+Amazon,amazon.com,Retail,ec2,https://en.wikipedia.org/wiki/Amazon_Web_Services,3rd-party
+Amazon,amazon.com,Retail,amazon cloud,https://en.wikipedia.org/wiki/Amazon_Web_Services,3rd-party
+Amazon,amazon.com,Retail,aws cloud,https://en.wikipedia.org/wiki/Amazon_Web_Services,3rd-party
+Amazon,amazon.com,Retail,aws,https://en.wikipedia.org/wiki/Amazon_Web_Services,3rd-party
+Amazon,amazon.com,Retail,rds,https://en.wikipedia.org/wiki/Amazon_Web_Services,3rd-party
+Amazon,amazon.com,Retail,amazon s3,https://en.wikipedia.org/wiki/Amazon_Web_Services,3rd-party
+Amazon,amazon.com,Retail,s3,https://en.wikipedia.org/wiki/Amazon_Web_Services,3rd-party
+Amazon,amazon.com,Retail,aws lambda,https://en.wikipedia.org/wiki/Amazon_Web_Services,3rd-party
+Amazon,amazon.com,Retail,lambda,https://en.wikipedia.org/wiki/Amazon_Web_Services,3rd-party
+Amazon,amazon.com,Retail,cloudfront,https://en.wikipedia.org/wiki/Amazon_Web_Services,3rd-party
+Amazon,amazon.com,Retail,load balancer,https://en.wikipedia.org/wiki/Amazon_Web_Services,3rd-party
+Amazon,amazon.com,Retail,auto scaling,https://en.wikipedia.org/wiki/Amazon_Web_Services,3rd-party
+Amazon,amazon.com,Retail,amazon dynamodb,https://en.wikipedia.org/wiki/Amazon_Web_Services,3rd-party
+Amazon,amazon.com,Retail,dynamodb,https://en.wikipedia.org/wiki/Amazon_Web_Services,3rd-party
+Amazon,amazon.com,Retail,cloudwatch,https://en.wikipedia.org/wiki/Amazon_Web_Services,3rd-party
+Amazon,amazon.com,Retail,elastic beanstalk,https://en.wikipedia.org/wiki/Amazon_Web_Services,3rd-party
+Amazon,amazon.com,Retail,sqs,https://en.wikipedia.org/wiki/Amazon_Web_Services,3rd-party
+Amazon,amazon.com,Retail,kinesis,https://en.wikipedia.org/wiki/Amazon_Web_Services,3rd-party
+Amazon,amazon.com,Retail,google cloud,https://en.wikipedia.org/wiki/Amazon_Web_Services,3rd-party
+Amazon,amazon.com,Retail,azure,https://en.wikipedia.org/wiki/Amazon_Web_Services,3rd-party
+Amazon,amazon.com,Retail,microsoft azure,https://en.wikipedia.org/wiki/Amazon_Web_Services,3rd-party
+Meta Platforms,meta.com,Technology,aws cloud,https://investorsobserver.com/news/stock-update/meta-and-amazon-just-declared-war-on-openai/,3rd-party
+Meta Platforms,meta.com,Technology,aws,https://investorsobserver.com/news/stock-update/meta-and-amazon-just-declared-war-on-openai/,3rd-party
+Meta Platforms,meta.com,Technology,ai platform,https://investorsobserver.com/news/stock-update/meta-and-amazon-just-declared-war-on-openai/,3rd-party
+Meta Platforms,meta.com,Technology,aws,https://aws.amazon.com/marketplace/seller-profile?id=seller-ngxeewszanjiw,3rd-party
+Meta Platforms,meta.com,Technology,amazon sagemaker,https://aws.amazon.com/marketplace/seller-profile?id=seller-ngxeewszanjiw,3rd-party
+Meta Platforms,meta.com,Technology,sagemaker,https://aws.amazon.com/marketplace/seller-profile?id=seller-ngxeewszanjiw,3rd-party
+Eli Lilly and Company,lilly.com,Pharmaceuticals,ec2,https://builtin.com/job/aws-cloud-devops-engineer/2983680,3rd-party
+Eli Lilly and Company,lilly.com,Pharmaceuticals,aws cloud,https://builtin.com/job/aws-cloud-devops-engineer/2983680,3rd-party
+Eli Lilly and Company,lilly.com,Pharmaceuticals,aws,https://builtin.com/job/aws-cloud-devops-engineer/2983680,3rd-party
+Eli Lilly and Company,lilly.com,Pharmaceuticals,s3,https://builtin.com/job/aws-cloud-devops-engineer/2983680,3rd-party
+Eli Lilly and Company,lilly.com,Pharmaceuticals,lambda,https://builtin.com/job/aws-cloud-devops-engineer/2983680,3rd-party
+Eli Lilly and Company,lilly.com,Pharmaceuticals,glue,https://builtin.com/job/aws-cloud-devops-engineer/2983680,3rd-party
+Visa,visa.com,Financials,aws,https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.20601.html,own
+Visa,visa.com,Financials,aws,https://aws.amazon.com/marketplace/seller-profile?id=seller-tnsh346nbsy46,3rd-party
+Visa,visa.com,Financials,amazon sagemaker,https://aws.amazon.com/marketplace/seller-profile?id=seller-tnsh346nbsy46,3rd-party
+Visa,visa.com,Financials,sagemaker,https://aws.amazon.com/marketplace/seller-profile?id=seller-tnsh346nbsy46,3rd-party
+State Grid,sgcc.com.cn,Utilities,s3,https://patents.justia.com/assignee/state-grid-qinghai-electric-power-research-institute,3rd-party
