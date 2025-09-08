@@ -1,0 +1,688 @@
+.App {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:
+    url('./assets/logo.png') no-repeat left 20px top 85px, /* 60px down from top */
+    linear-gradient(135deg, #d0f0ff, #bbdefb);
+  background-size: 300px, cover; /* logo larger */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Card Style for Workflow Container */
+.workflow-container {
+  background: #ffffffcc; /* semi-transparent white */
+  backdrop-filter: blur(8px);
+  padding: 50px 70px; /* Increased padding */
+  border-radius: 25px; /* Increased border-radius */
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2); /* Increased box-shadow */
+  text-align: center;
+  animation: fadeIn 1.5s ease-in-out;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 1000px; /* Increased container size */
+}
+
+.workflow-container:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 18px 35px rgba(0, 0, 0, 0.3);
+}
+
+/* Title with Gradient Text */
+.workflow-title {
+  font-size: 3.5rem; /* Increased font size */
+  font-weight: 700;
+  background: linear-gradient(90deg, #0a3d62, #0077b6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 25px; /* Increased margin */
+  letter-spacing: 1.5px; /* Increased letter-spacing */
+  animation: slideDown 1.2s ease forwards;
+}
+
+/* Subtext Styling */
+.workflow-subtext {
+  font-size: 1.5rem; /* Increased font size */
+  color: #1a5276;
+  max-width: 900px;
+  line-height: 2; /* Increased line-height */
+  animation: fadeInUp 1.5s ease forwards;
+  margin-bottom: 25px;
+}
+
+/* Animated Divider Line */
+.divider {
+  width: 150px; /* Increased width */
+  height: 5px; /* Increased height */
+  background: linear-gradient(90deg, #009ffd, #2a2a72);
+  border-radius: 10px;
+  margin: 20px auto; /* Increased margin */
+  animation: growLine 1.8s ease forwards;
+}
+
+/* Buttons for Future Expansion */
+.workflow-btn {
+  margin-top: 30px; /* Increased margin */
+  padding: 15px 35px; /* Increased padding */
+  border: none;
+  border-radius: 30px; /* Increased border-radius */
+  background: linear-gradient(135deg, #009ffd, #2a2a72);
+  color: #fff;
+  font-size: 1.1rem; /* Increased font size */
+  cursor: pointer;
+  transition: background 0.4s ease, transform 0.2s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25); /* Increased box-shadow */
+}
+
+.workflow-btn:hover {
+  background: linear-gradient(135deg, #0077b6, #023e8a);
+  transform: scale(1.08);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideDown {
+  from { transform: translateY(-50px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from { transform: translateY(50px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes growLine {
+  from { width: 0; }
+  to { width: 150px; }
+}
+.arrow-btn {
+  position: fixed;
+  bottom: 40px; /* Increased distance from bottom */
+  right: 40px; /* Increased distance from right */
+
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: none;
+  background: white;
+  color: #0077b6;
+  font-size: 3rem; /* Increased font size */
+  cursor: pointer;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3); /* Increased box-shadow */
+  transition: transform 0.3s ease, background 0.3s ease;
+  z-index: 2000;
+}
+
+.arrow-btn:hover {
+  background: #e0f7fa;
+  transform: scale(1.2);
+}
+
+.app-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(135deg, #009ffd, #2a2a72);
+  color: white;
+  padding: 20px 40px; /* Increased padding */
+  box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+  z-index: 1100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: slideDown 0.6s ease forwards;
+}
+
+.header-title {
+  font-size: 1.6rem; /* Increased font size */
+  margin: 0;
+  font-weight: 800;
+  letter-spacing: 1px;
+  /* No flex-grow or text-align here, as background-position handles logo placement */
+}
+
+/* Removed .header-logo as it's now a background image */
+
+
+@keyframes slideDown {
+  from { transform: translateY(-100%); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+.workflow-step {
+  margin-top: 40px; /* Increased margin */
+  text-align: left;
+  background: #f0f8ff;
+  padding: 40px 50px; /* Increased padding */
+  border-radius: 12px; /* Increased border-radius */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15); /* Increased box-shadow */
+  max-width: 1000px; /* Increased container size */
+  width: 100%;
+  animation: fadeInUp 1s ease;
+  font-size: 1.4rem; /* Increased base font size */
+}
+
+.step-heading {
+  font-size: 2rem; /* Increased heading size */
+  font-weight: 700;
+  color: #0a3d62;
+  margin: 20px 0 10px;
+}
+
+.step-text {
+  font-size: 1.4rem; /* Increased body text size */
+  color: #1a5276;
+  margin-bottom: 20px;
+  line-height: 2; /* Increased line-height */
+}
+
+.step-list {
+  padding-left: 30px; /* Increased padding */
+  font-size: 1.4rem; /* Increased list text size */
+  color: #1a5276;
+  line-height: 2.2; /* Increased line-height */
+}
+.third-page {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center;    /* centers vertically */
+  background: linear-gradient(135deg, #d0f0ff, #bbdefb);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.workflow-step-3 {
+  background: #f0f8ff;
+  padding: 40px 50px; /* Increased padding */
+  border-radius: 12px; /* Increased border-radius */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15); /* Increased box-shadow */
+  max-width: 1000px; /* Increased container size */
+  width: 90%;
+  animation: fadeInUp 1s ease;
+  font-size: 1.4rem; /* Increased base font size */
+  text-align: left;
+}
+
+
+.step-heading-3 {
+  font-size: 2rem; /* Increased heading size */
+  font-weight: 700;
+  color: #0a3d62;
+  margin: 20px 0 10px;
+}
+
+.step-text-3 {
+  font-size: 1.4rem; /* Increased body text size */
+  color: #1a5276;
+  margin-bottom: 20px;
+  line-height: 2; /* Increased line-height */
+}
+
+.step-list-3 {
+  padding-left: 30px; /* Increased padding */
+  font-size: 1.4rem; /* Increased list text size */
+  color: #1a5276;
+  line-height: 2.2; /* Increased line-height */
+}
+.fourth-page {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #d0f0ff, #bbdefb);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.workflow-step-4 {
+  background: #f9fcff;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  max-width: 1500px;
+  width: 90%;
+  animation: fadeInUp 1s ease;
+  font-size: 1.1rem;
+  text-align: left;
+  margin-top: 60px; /* 👈 pushes container slightly down */
+}
+
+
+
+.step-heading-4 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #0a3d62;
+  margin: 15px 0 8px;
+}
+
+.step-text-4 {
+  font-size: 1.2rem;
+  color: #1a5276;
+  margin-bottom: 15px;
+  line-height: 1.8;
+}
+
+/* Table Styling */
+.workflow-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.workflow-table th {
+  background: #0077b6;
+  color: white;
+  padding: 12px;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.workflow-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  font-size: 1rem;
+  color: #1a5276;
+}
+
+.workflow-table tr:hover td {
+  background: #e0f7fa;
+}
+
+/* Output Box */
+.output-box {
+  background: #eef6fb;
+  padding: 15px;
+  border-radius: 6px;
+  font-family: monospace;
+  font-size: 1rem;
+  color: #0a3d62;
+  box-shadow: inset 0 2px 6px rgba(0,0,0,0.08);
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from { transform: translateY(40px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+.sixth-page {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #e0f7fa, #bbdefb);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.workflow-step-6 {
+  background: #f9fcff;
+  padding: 40px 50px; /* Increased padding */
+  border-radius: 15px; /* Increased border-radius */
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2); /* Increased box-shadow */
+  max-width: 1000px; /* Increased container size */
+  width: 90%;
+  animation: fadeInUp 1s ease;
+  font-size: 1.4rem; /* Increased base font size */
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.workflow-step-6:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 35px rgba(0, 0, 0, 0.3);
+}
+
+.step-heading-6 {
+  font-size: 2rem; /* Increased heading size */
+  font-weight: 700;
+  color: #0a3d62;
+  margin: 20px 0 12px;
+}
+
+.step-text-6 {
+  font-size: 1.4rem; /* Increased body text size */
+  color: #1a5276;
+  margin-bottom: 20px;
+  line-height: 2; /* Increased line-height */
+}
+
+.step-list-6 {
+  padding-left: 30px; /* Increased padding */
+  font-size: 1.4rem; /* Increased list text size */
+  color: #1a5276;
+  line-height: 2.2; /* Increased line-height */
+  list-style: disc;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from { transform: translateY(40px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+.seventh-page {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #d0f0ff, #bbdefb);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.workflow-step-7 {
+  background: #f9fcff;
+  padding: 40px 50px; /* Increased padding */
+  border-radius: 12px; /* Increased border-radius */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); /* Increased box-shadow */
+  max-width: 1000px; /* Increased container size */
+  width: 90%;
+  animation: fadeInUp 1s ease;
+  font-size: 1.4rem; /* Increased base font size */
+  text-align: left;
+}
+
+.step-heading-7 {
+  font-size: 2rem; /* Increased heading size */
+  font-weight: 700;
+  color: #0a3d62;
+  margin: 20px 0 12px;
+}
+
+.step-text-7 {
+  font-size: 1.4rem; /* Increased body text size */
+  color: #1a5276;
+  margin-bottom: 20px;
+  line-height: 2; /* Increased line-height */
+}
+
+.step-list-7 {
+  padding-left: 30px; /* Increased padding */
+  font-size: 1.4rem; /* Increased list text size */
+  color: #1a5276;
+  line-height: 2.2; /* Increased line-height */
+  list-style: disc;
+}
+
+/* Animation */
+@keyframes fadeInUp {
+  from { transform: translateY(40px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+.eighth-page {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #d0f0ff, #bbdefb);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.workflow-step-8 {
+  background: #f9fcff;
+  padding: 40px 50px; /* Increased padding */
+  border-radius: 15px; /* Increased border-radius */
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2); /* Increased box-shadow */
+  max-width: 1000px; /* Increased container size */
+  width: 90%;
+  animation: fadeInUp 1s ease;
+  font-size: 1.4rem; /* Increased base font size */
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.workflow-step-8:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 35px rgba(0, 0, 0, 0.3);
+}
+
+.step-heading-8 {
+  font-size: 2rem; /* Increased heading size */
+  font-weight: 700;
+  color: #0a3d62;
+  margin: 20px 0 12px;
+}
+
+.step-text-8 {
+  font-size: 1.4rem; /* Increased body text size */
+  color: #1a5276;
+  margin-bottom: 20px;
+  line-height: 2; /* Increased line-height */
+}
+
+.step-list-8 {
+  padding-left: 30px; /* Increased padding */
+  font-size: 1.4rem; /* Increased list text size */
+  color: #1a5276;
+  line-height: 2.2; /* Increased line-height */
+  list-style: disc;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from { transform: translateY(40px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+.summary-page {
+  margin: 0;
+  padding: 30px 20px;    /* increased padding */
+  min-height: 100vh;
+  background: linear-gradient(135deg, #bbdefb, #e0f7fa);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.summary-title {
+  font-size: 2.8rem;    /* increased font size */
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 25px;    /* increased margin */
+  text-align: center;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.25);
+  margin-top: 70px;
+}
+
+.summary-container {
+  background: #ffffffcc;
+  backdrop-filter: blur(8px);
+  padding: 35px 40px;    /* increased padding */
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  max-width: 1200px;    /* increased width */
+  width: 100%;
+  margin-top: 20px;    /* increased distance from top */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: fadeInUp 1s ease;
+}
+
+.workflow-sequence {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;    /* increased gap between steps */
+}
+
+.workflow-box {
+  background: #ffffff;
+  padding: 20px 30px;    /* increased padding */
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  font-size: 1.25rem;    /* increased text size */
+  font-weight: 600;
+  color: #1a5276;
+  text-align: center;
+  max-width: 600px;    /* wider box */
+  width: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.workflow-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+.arrow {
+  font-size: 2.5rem;    /* increased arrow size */
+  color: #0077b6;
+  animation: bounce 1.2s infinite;
+}
+
+.loop {
+  color: #f39c12;
+  font-size: 2.8rem;
+}
+
+.summary-note {
+  margin-top: 25px;
+  max-width: 700px;
+  font-size: 1.25rem;    /* increased text size */
+  color: #0a3d62;
+  text-align: center;
+  line-height: 1.8;
+}
+.thankyou-page {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #bbdefb, #e0f7fa);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.thankyou-box {
+  background: #ffffffee;
+  padding: 60px 100px; /* Increased padding */
+  border-radius: 25px; /* Increased border-radius */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Increased box-shadow */
+  text-align: center;
+  animation: fadeIn 1.2s ease;
+  max-width: 900px; /* Increased container size */
+}
+
+.thankyou-title {
+  font-size: 5rem; /* Increased font size */
+  font-weight: 800;
+  color: #0077b6;
+  margin-bottom: 25px;
+  text-shadow: 3px 3px 10px rgba(0,0,0,0.25);
+}
+
+.thankyou-message {
+  font-size: 1.8rem; /* Increased font size */
+  color: #1a5276;
+  line-height: 2; /* Increased line-height */
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { transform: translateY(0); opacity: 1; }
+}
+.first-bg {
+  min-height: 100vh;
+  background-image: url('./assets/logo.png'); /* adjust path if needed */
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 120px; /* adjust size */
+}
+.fifth-page {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #d0f0ff, #bbdefb);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.workflow-step-5 {
+  background: #f9fcff;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  max-width: 1500px;
+  width: 95%;
+  animation: fadeInUp 1s ease;
+  font-size: 1.1rem;
+  text-align: left;
+  margin-top: 60px;
+}
+
+.step-heading-5 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #0a3d62;
+  margin: 15px 0 8px;
+}
+
+/* Table Styling */
+.workflow-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.workflow-table th {
+  background: #0077b6;
+  color: white;
+  padding: 12px;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.workflow-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  font-size: 1rem;
+  color: #1a5276;
+}
+
+.workflow-table tr:hover td {
+  background: #e0f7fa;
+}
+
+/* Requirements Box */
+.output-box {
+  background: #eef6fb;
+  padding: 15px 20px;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #0a3d62;
+  box-shadow: inset 0 2px 6px rgba(0,0,0,0.08);
+  margin-top: 20px;
+}
+
+.output-box ul {
+  margin: 10px 0 0 20px;
+  padding: 0;
+}
