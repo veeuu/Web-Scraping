@@ -1,0 +1,11 @@
+streamlit
+playwright
+httpx
+beautifulsoup4
+sentence-transformers
+scikit-learn
+pdfminer.six
+pillow
+pytesseract
+pandas
+openpyxl
